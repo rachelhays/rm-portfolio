@@ -701,6 +701,15 @@ footer {
 
 /* MEDIA QUERIES */
 
+@media all and (min-width: 1025px) and (max-width: 1268px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        margin: 40px 250px;
+    }
+}
+
 /* KEYFRAMES */
 
 @keyframes space-zoom {
