@@ -181,7 +181,6 @@ main {
 
 .portfolio-body {
     background-color: #b4cadb;
-    margin: 0 250px;
 }
 
 .portfolio-header nav ul li a {
@@ -191,7 +190,7 @@ main {
 .portfolio-main {
     text-align: center;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 50px 150px 25px 150px;
 }
 
 .portfolio-main h1 {
