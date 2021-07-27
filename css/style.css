@@ -722,11 +722,23 @@ footer {
     }
 
     .laptop {
-        width: 300px;
+        width: 250px;
     }
 
     .online-pic {
-        width: 300px;
+        width: 250px;
+    }
+
+    .bio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin: 0 300px;
+    }
+    
+    .bio-grid-item {
+        text-align: center;
+        margin: 10px 0 25px 0;
     }
 
 }
