@@ -701,7 +701,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1275px) {
     .projects-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
