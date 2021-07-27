@@ -701,6 +701,8 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* Desktop up to 1800px */
+
 @media all and (max-width: 1800px) {
     .portfolio-main {
         text-align: center;
@@ -713,6 +715,12 @@ footer {
         grid-gap: 25px;
         margin: 50px 150px;
     }
+
+    .about-main {
+        text-align: center;
+        margin-top: 50px 350px;
+    }
+
 }
 
 /* KEYFRAMES */
