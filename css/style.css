@@ -721,6 +721,10 @@ footer {
         margin: 50px;
     }
 
+    .about-heading {
+        margin: 0 250px;
+    }
+
     .laptop {
         width: 400px;
     }
@@ -733,6 +737,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
+        margin: 0 200px;
     }
     
     .bio-grid-item {
