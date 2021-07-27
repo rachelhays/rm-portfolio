@@ -711,7 +711,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
-        margin: 50px 200px;
+        margin: 50px 150px;
     }
 }
 
