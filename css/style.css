@@ -701,16 +701,17 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 1900px) {
+@media all and (max-width: 1800px) {
+    .portfolio-main {
+        text-align: center;
+        margin: 50px 200px 25px 200px;
+    }
+    
     .projects-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 25px;
         margin: 50px 0;
-    }
-
-    .portfolio-main {
-
     }
 }
 
