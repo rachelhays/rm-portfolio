@@ -394,7 +394,7 @@ footer {
 }
 
 .biopic {
-    width: 425px;
+    width: 550px;
     border-radius: 10px;
     border:#fff 2px solid;
     box-shadow: 8px 5px 5px #e6e6e6;
@@ -855,6 +855,10 @@ footer {
 
     .about-heading {
         margin: 0 200px;
+    }
+
+    .biopic {
+        width: 425px;
     }
 
     .bio-grid {
