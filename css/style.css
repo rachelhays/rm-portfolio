@@ -876,6 +876,10 @@ footer {
         text-align: center;
         margin: 10px 0 25px 0;
     }
+
+    .about-goal {
+        margin: 10px 300px;
+    }
 }
 
 /* Desktop up to 1500px */
