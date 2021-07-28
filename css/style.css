@@ -183,6 +183,10 @@ main {
     background-color: #b4cadb;
 }
 
+.resume-link {
+    margin-bottom: 25px;
+}
+
 .portfolio-header nav ul li a {
     font-size: 22px;
 }
@@ -694,6 +698,138 @@ footer {
     height: auto;
 }
 
+.return-btn {
+    margin: 20px;
+}
+
+.return-btn-full:link,
+.return-btn-full:visited {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffa68f;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    transition: font-size 0.5s;
+}
+
+.return-btn-full:hover,
+.return-btn-full:active {
+    font-size: 18px;
+}
+
+/* INFOGRAPHIC PAGE */
+.info-body {
+    background-color: #b4cadb;
+}
+
+.info-main {
+    text-align: center;
+    color: #fff;
+    margin: 50px 250px;
+}
+
+.info-main h1 {
+    font-size: 70px;
+    font-family: 'Rochester', cursive;
+    margin: 25px 0;
+    text-transform: none;
+}
+
+.info-main h2 {
+    font-size: 28px;
+}
+
+.info-main h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info-main p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-heading {
+    margin: 0 300px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 15px 250px;
+    text-align: center;
+}
+
+.info-grid-item {
+    width: 460px;
+    text-align: center;
+}
+
+.info-btn {
+    margin-bottom: 10px;
+}
+
+.info-btn-full:link,
+.info-btn-full:visited {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffa68f;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 15px;
+    transition: font-size 0.5s;
+}
+    
+.info-btn-full:hover,
+.info-btn-full:active {
+    font-size: 18px;
+}
+
+.info-pic {
+    width: 450px;
+    height: auto;
+}
+
+/* GUIDED MEDITATION PAGE */
+
+.med-body {
+    background-color: #b4cadb;
+}
+
+.med-main {
+    text-align: center;
+    color: #fff;
+    margin: 50px 300px 25px 300px;
+}
+
+.med-main h1 {
+    font-size: 70px;
+    font-family: 'Rochester', cursive;
+    margin: 25px 0;
+    text-transform: none;
+}
+
+.med-main h2 {
+    font-size: 28px;
+}
+
+.med-main h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.med-main p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 
 /* MEDIA QUERIES */
 
@@ -732,8 +868,19 @@ footer {
         text-align: center;
         margin: 10px 0 25px 0;
     }
-
 }
+
+/* Desktop up to 1500px */
+
+/* Desktop up to 1200px */
+
+/* Tablet Landscape - up to 1024px */
+
+/* Tablet portrait - up to 768px */
+
+/* Mobile - up to 550px */
+
+/* Small mobile - up to 400px */
 
 /* KEYFRAMES */
 
