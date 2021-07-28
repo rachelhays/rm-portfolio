@@ -861,6 +861,10 @@ footer {
         width: 425px;
     }
 
+    .biopic:hover {
+        width: 430px;
+    }
+
     .bio-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
