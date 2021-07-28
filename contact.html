@@ -59,7 +59,24 @@
             <h4>Email: Rachel.Malia@outlook.com</h4>
 
             <p>Feel free to use the form below:</p>
-            <p>CODE FORM HERE</p>
+            <p>UPDATE FORM STYLING</p>
+
+            <form action="#" method="post" id="contact-form">
+
+                <label class="standard-label" for="contact-email">*Email: </label>
+                <input type="email" id="contact-email" required>
+                <br>
+                <br>
+                <label class="standard-label" for="contact-telephone">Telephone: </label>
+                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone">
+                <br>
+                <br>
+                <label class="standard-label" for="contact-message">*Message (250 characters max): </label>
+                <textarea maxlength="250" id="contact-message" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Send message">
+              </form>
 
         </section>
 

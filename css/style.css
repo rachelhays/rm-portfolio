@@ -464,7 +464,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
-    margin: 0 350px;
+    margin: 0 250px;
 }
 
 .bio-grid-item {
@@ -595,11 +595,7 @@ footer {
 .contact-main {
     text-align: center;
     color: #fff;
-    margin-top: 50px;
-}
-
-.contact-heading {
-    margin: 0 350px;
+    margin: 50px 250px;
 }
 
 .contact-main h1 {
