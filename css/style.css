@@ -599,6 +599,7 @@ footer {
     color: #fff;
     text-align: center;
     margin-top: 50px;
+    align-items: center;
 }
 
 .contact-main h1 {
@@ -607,16 +608,32 @@ footer {
     text-transform: none;
 }
 
-.contact-info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+.contact-box {
+    position: relative;
     text-align: center;
-    margin: 0 600px;
+    color: #fff;
+    margin: 0 250px;
 }
 
-.contact-info-grid-item {
-    text-align: center;
+.contact-pic {
+    width: 500px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-textbox {
+   position: absolute;
+   text-align: left;
+   top: 150px;
+   left: 490px;
+}
+
+.contact-textbox h3 {
+    font-size: 32px;
+}
+
+.contact-textbox p {
+    font-size: 24px;
 }
 
 .contact-form {
