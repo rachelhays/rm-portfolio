@@ -595,18 +595,74 @@ footer {
     background-color: #b4cadb;
 }
 
-
 .contact-main {
-    text-align: center;
     color: #fff;
-    margin: 50px 250px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .contact-main h1 {
     font-size: 70px;
     font-family: 'Rochester', cursive;
-    margin: 30px 0;
     text-transform: none;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
+    margin: 0 600px;
+}
+
+.contact-info-grid-item {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 40px 450px;
+}
+
+.contact-info-grid-item h2 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.send-message {
+    text-align: center;
+}
+
+.input-box {
+    margin-top: 15px;
+    border-color:#fff;
+}
+
+.form-label {
+    font-size: 20px;
+}
+
+.form-box {
+    border: none;
+    background: none;
+    border-bottom: solid 2px #fff;
+    min-width: 500px;
+    min-height: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.send-btn {
+    font-size: 30px;
+    font-family: 'Rochester', cursive;
+    background-color: #ffa68f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.send-btn:hover {
+    font-size: 32px;
 }
 
 .page-closing {

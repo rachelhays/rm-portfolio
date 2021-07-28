@@ -50,44 +50,64 @@
 
         <h1>Contact</h1>
 
-        <section>
+        <div class="contact-info-grid">
+            
+            <div class="contact-info-grid-item">
+                <h3>Phone</h3>
+                <p>931-292-3953</p>
+             </div>
 
-            <h2>Contact Info</h2>
+            <div class="contact-info-grid-item">
+                <h3>Email</h3>
+                <p>Rachel.Malia@outlook.com</p>
+             </div>    
 
-            <h3>Rachel Malia</h3>
-            <h4>Phone: 931.292.3953</h4>
-            <h4>Email: Rachel.Malia@outlook.com</h4>
+        </div>
 
-            <p>Feel free to use the form below:</p>
-            <p>UPDATE FORM STYLING</p>
+        <div class="contact-form">
 
-            <form action="#" method="post" id="contact-form">
+            <h2>Send me a message</h2>
 
-                <label class="standard-label" for="contact-email">*Email: </label>
-                <input type="email" id="contact-email" required>
-                <br>
-                <label class="standard-label" for="contact-telephone">Telephone: </label>
-                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone">
-                <br>
-                <label class="standard-label" for="contact-message">*Message (250 characters max): </label>
-                <br>
-                <textarea maxlength="250" id="contact-message" required></textarea>
-                <br>
-                <input type="submit" class="form-send" value="Send message">
-              </form>
-
-        </section>
-
-        <section>
-
-            <p>provide buttons & links as necessary; include social media connections</p>
+            <form class="send-message">
     
 
-        </section>
+                    <div class="input-box">
+                        <span class="form-label">Full Name</span><br>
+                        <input type="text" class="form-box" name="" required="required">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="form-label">Email</span><br>
+                        <input type="text" class="form-box" name="" required="required">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="form-label">Message</span><br>
+                        <textarea required="required" class="form-box"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" class="send-btn" name="" value="Send">
+                    </div>
+
+            </form>
+
+        </div>
+
+        
+
+            
+
+            
+
+
+
 
         <p>__________</p>
 
     </div>
+
+   
 
     <div class="page-closing">
 
