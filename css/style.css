@@ -638,9 +638,17 @@ footer {
 }
 
 .info-box h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Rochester', cursive;
     text-transform: none;
+}
+
+.info-box h2 {
+    font-size: 26px;
+}
+
+.info-box p {
+    font-size: 20px;
 }
 
 .contact-form {
@@ -658,6 +666,7 @@ footer {
 
 .form-label {
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .form-box {
@@ -666,8 +675,8 @@ footer {
     border-bottom: solid 2px #ffa68f;
     min-width: 500px;
     min-height: 20px;
-    margin-bottom: 25px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
     color: #fff;
 }
 
